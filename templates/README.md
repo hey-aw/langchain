@@ -61,7 +61,6 @@ You can change the code files in `packages/pirate-speak` to use a different mode
 Note that the above code snippet always expects the final chain to be importable as `from pirate_speak.chain import chain`,
 so you should either keep the structure of the package similar enough to respect that or be prepared to update that code snippet.
 
-Once you have done as much of that as you want, it is 
 In order to have LangServe use this project, you then need to modify `app/server.py`.
 Specifically, you should add the above code snippet to `app/server.py` so that file looks like:
 
